@@ -1,0 +1,13 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Script file="ShatteringYeet.lua"/>
+	<Frame name="ShatteringYeet_Core">
+		<Scripts>
+			<OnLoad>
+				self:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED");		
+			</OnLoad>
+			<OnEvent> 
+				ShatteringYeet_OnEvent(self, event, ...);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

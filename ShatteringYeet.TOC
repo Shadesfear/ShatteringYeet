@@ -1,0 +1,9 @@
+## Interface: 70300
+## Title: ShatteringYeet
+## Notes: Says YEET whenever you cast Shattering Throw
+## Version: 1.0
+## Author: Shadesfear
+## SavedVariables: ShatteringYeet_Options
+
+ShatteringYeet.lua
+ShatteringYeet.xml
